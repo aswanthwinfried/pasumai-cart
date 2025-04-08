@@ -6,7 +6,13 @@ function Auth() {
   return (
     <div className="container">
       <div className="auth-card">
-        <div className="logo">V EN</div>
+      <div className="logo">
+  
+  <select defaultValue="EN" style={{ border: "none", background: "transparent", fontWeight: "bold" }}>
+    <option value="EN">EN</option>
+    <option value="TN">தமிழ்</option>
+  </select>
+</div>
         <h1 className="title">Welcome to Pasumai Cart</h1>
         <div className="button-group">
           {/* <button className="btn register-btn">Farmer Registration</button>

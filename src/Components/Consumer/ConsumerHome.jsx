@@ -96,50 +96,7 @@ function ConsumerHome() {
           <Link to={"/prodshow"}>Show More →</Link>
           </div>
 
-          <div className="category-card">
-          <h3>Fruits</h3>
-          <img
-            src="https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg"
-            alt="Fruits"
-          />
-          <Link to={"/prodshow"}>Show More →</Link>
-          </div>
-
-
-          <div className="category-card">
-          <h3>Fruits</h3>
-          <img
-            src="https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg"
-            alt="Fruits"
-          />
-          <Link to={"/prodshow"}>Show More →</Link>
-          </div>
-
-          <div className="category-card">
-          <h3>Fruits</h3>
-          <img
-            src="https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg"
-            alt="Fruits"
-          />
-          <Link to={"/prodshow"}>Show More →</Link>
-          </div>
-
-          <div className="category-card">
-          <h3>Fruits</h3>
-          <img
-            src="https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg"
-            alt="Fruits"
-          />
-          <Link to={"/prodshow"}>Show More →</Link>
-          </div>
-          <div className="category-card">
-          <h3>Fruits</h3>
-          <img
-            src="https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg"
-            alt="Fruits"
-          />
-          <Link to={"/prodshow"}>Show More →</Link>
-          </div>
+ 
           
       </section>
     </div>
