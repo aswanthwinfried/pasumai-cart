@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f9f4;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6ffe6;
+  }
+  
+  .auth-card {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: #d4f5c2;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #2b6a2b;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #2b6a2b;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .register-btn {
+    background-color: #a8e6cf;
+    color: #2b6a2b;
+  }
+  
+  .register-btn:hover {
+    background-color: #8de1bd;
+  }
+  
+  .login-btn {
+    background-color: #ffcc80;
+    color: #5c3d00;
+  }
+  
+  .login-btn:hover {
+    background-color: #ffb74d;
+  }
+  

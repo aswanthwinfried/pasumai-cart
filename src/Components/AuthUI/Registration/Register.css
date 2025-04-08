@@ -1,0 +1,43 @@
+/* src/Components/Registration/Register.css */
+.form-container {
+    width: 320px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    background-color: #f9fff9;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 1rem;
+    color: #2e7d32;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .form-container input {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+  }
+  
+  .form-container .button {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0caa12;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-container .button:hover {
+    background-color: #14aa1b;
+  }
+  
