@@ -39,11 +39,11 @@ function ConsumerHome() {
   return (
     <div className="consumer-home">
       <header className="navbar">
-        <div className="logo">PasumaiCart</div>
+        <div className="logo1">PasumaiCart</div>
         <input type="text" placeholder="Search" className="search-box" />
         <div className="cart">
           <FaShoppingCart />
-          <span>0</span>
+          {/* <span>0</span> */}
         </div>
       </header>
 

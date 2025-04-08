@@ -37,7 +37,7 @@
   }
   
   .cart-indicator {
-    background: #f7f7f7;
+    background:#eee;
     padding: 6px 12px;
     border-radius: 12px;
     font-weight: bold;
@@ -75,6 +75,13 @@
     border-radius: 50%; /* Rounded image */
     margin-bottom: 10px;
   }
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* spacing between the two buttons */
+    margin-left: 20px;
+  }
   
   .add-btn {
     background-color: #28a745;
@@ -85,13 +92,17 @@
     width: 36px;
     height: 36px;
     cursor: pointer;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .show-btn{
-    margin-left: 20px;
-    padding: 10px;
+  
+  .show-btn {
+    padding: 10px 16px;
     border-radius: 5px;
     color: white;
     background-color: #28a745;
+    border: none;
     cursor: pointer;
+    font-weight: 500;
   }

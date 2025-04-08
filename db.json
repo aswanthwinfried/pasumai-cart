@@ -1,0 +1,129 @@
+{
+  "consumers": [
+    {
+      "id": 1,
+      "name": "Aswanth",
+      "email": "aswanth@gmail.com",
+      "phone": "1234567890",
+      "password": "1234"
+    },
+    {
+      "id": "1c91",
+      "name": "Andrew Leo",
+      "email": "leo123@gmail.com",
+      "phone": "1234567891",
+      "password": "1234"
+    },
+    {
+      "id": "cafa",
+      "name": "win ",
+      "email": "win@gmail.com",
+      "phone": "1111111111",
+      "password": "222"
+    },
+    {
+      "id": "6306",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "phone": "2222222222",
+      "password": "1111"
+    },
+    {
+      "id": "5f9b",
+      "name": "gowtham",
+      "email": "gow@gmail.com",
+      "phone": "1231231231",
+      "password": "3232"
+    },
+    {
+      "id": "a480",
+      "name": "Ram",
+      "email": "ram123@gmail.com",
+      "phone": "8213212121",
+      "password": "4321"
+    }
+  ],
+  "farmers": [
+    {
+      "id": 1,
+      "name": "Farmer Joe",
+      "email": "farmer@gmail.com",
+      "phone": "9876543210",
+      "password": "farmer123"
+    },
+    {
+      "id": "e45b",
+      "name": "Leo",
+      "city": "Dindigul",
+      "phone": "1234567812",
+      "farmdetail": "Fresh Tomato Garden Dindigul",
+      "password": "123456"
+    },
+    {
+      "id": "00d5",
+      "name": "Leo",
+      "city": "Dindigul",
+      "phone": "1212323112",
+      "farmdetail": "Fresh Tomato Garden Dindigul",
+      "password": "123456"
+    },
+    {
+      "id": "be54",
+      "name": "ram",
+      "city": "madurai",
+      "phone": "8888811111",
+      "farmdetail": "Fresh Greens",
+      "password": "8888"
+    },
+    {
+      "id": "df90",
+      "name": "Arul",
+      "city": "Madurai",
+      "phone": "9222222222",
+      "farmdetail": "Fresh Apple",
+      "password": "1321"
+    }
+  ],
+
+
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Kashmir Apple",
+      "price": 250,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s"
+    },
+    {
+      "id": 2,
+      "name": "Orange",
+      "price": 210,
+      "img": "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mango",
+      "price": 180,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Custard Apple",
+        "price": 100,
+        "img": "https://rukminim3.flixcart.com/image/850/1000/kidgnm80-0/plant-seed/3/0/g/30-sugar-apple-sm-plus-original-imafy6jzpuasdcza.jpeg?q=90&crop=false"
+    },
+    {
+        "id": 5,
+        "name": "Fresh Guava",
+        "price": 140,
+        "img": "https://rukminim2.flixcart.com/image/850/1000/ked56kw0/fruit/y/h/s/500-un-branded-whole-original-imafv2fthhvhvhgr.jpeg?q=90&crop=false"
+      },
+      {
+        "id": 6,
+        "name": "Watermelon",
+        "price": 90,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s"
+      }
+
+  ]
+}

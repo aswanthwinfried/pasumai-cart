@@ -8,6 +8,7 @@ import Login from "./Components/AuthUI/Login/Login";
 import ConsumerHome from "./Components/Consumer/ConsumerHome";
 import ProductShow from "./Components/ProductsUI/ProductShow";
 import CartPage from "./Components/Cart/CartPage";
+import FarmerDashboard from "./Components/Farmer/FarmerDashboard";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -22,6 +23,7 @@ function App() {
         <Route path="/conshome" element={<ConsumerHome />} />
         <Route path="/prodshow" element={<ProductShow cartItems={cartItems} setCartItems={setCartItems} />} />
         <Route path="/cart" element={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
+        <Route path="/farmerhome" element={<FarmerDashboard/>} />
       </Routes>
     </Router>
   );

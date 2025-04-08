@@ -1,24 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ProductShow.css";
 
-const products = [
-  { id: 1, name: "Kashmir Apple", price: 250, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s" },
-  { id: 2, name: "Orange", price: 210, img: "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg" },
-  { id: 2, name: "Orange", price: 210, img: "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg" },
-  { id: 1, name: "Kashmir Apple", price: 250, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s" },
-  { id: 2, name: "Orange", price: 210, img: "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg" },
-  { id: 1, name: "Kashmir Apple", price: 250, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s" },
-  { id: 2, name: "Orange", price: 210, img: "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg" },
-  { id: 1, name: "Kashmir Apple", price: 250, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s" },
-  { id: 2, name: "Orange", price: 210, img: "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg" },
-
-
-];
-
 const ProductShow = ({ cartItems, setCartItems }) => {
-  const [searchTerm, setSearchTerm] = React.useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+  const [products, setProducts] = useState([]);
   const navigate = useNavigate();
+
+  // Fetch data from json-server
+  useEffect(() => {
+    fetch("http://localhost:5000/products")
+      .then((res) => res.json())
+      .then((data) => setProducts(data))
+      .catch((err) => console.error("Error fetching products:", err));
+  }, []);
 
   const handleAddToCart = (item) => {
     setCartItems((prevItems) => [...prevItems, item]);
@@ -46,23 +41,33 @@ const ProductShow = ({ cartItems, setCartItems }) => {
           />
           <button className="search-icon">🔍</button>
         </div>
-        <div className="cart-indicator" onClick={handleGoToCart} style={{ cursor: "pointer" }}>
+        <div
+          className="cart-indicator"
+          onClick={handleGoToCart}
+          style={{ cursor: "pointer" }}
+        >
           Cart 🛒 <span className="cart-count">{cartItems.length}</span>
         </div>
       </header>
 
       <div className="product-list">
-        {filteredProducts.map((item, index) => (
-          <div className="product-card" key={index}>
+        {filteredProducts.map((item) => (
+          <div className="product-card" key={item.id}>
             <img src={item.img} alt={item.name} />
             <h3>{item.name}</h3>
             <p>₹{item.price}/kg</p>
-            <button className="add-btn" onClick={() => handleAddToCart(item)}>＋</button>
+            <div className="button-group">
+            <button className="add-btn" onClick={() => handleAddToCart(item)}>
+              ＋
+            </button>
             <button className="show-btn">Show More</button>
+            </div>
           </div>
         ))}
         {filteredProducts.length === 0 && (
-          <p style={{ margin: "20px", textAlign: "center" }}>No products found.</p>
+          <p style={{ margin: "20px", textAlign: "center" }}>
+            No products found.
+          </p>
         )}
       </div>
     </div>

@@ -29,11 +29,21 @@ body {
     padding: 10px 20px;
   }
   
-  .logo {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-right: 200px;
+  .logo1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
   }
+  
+  .logo1:hover {
+    transform: scale(1.05);
+  }
+  
   
   .search-box {
     flex: 1;
