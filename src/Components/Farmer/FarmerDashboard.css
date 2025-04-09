@@ -122,3 +122,89 @@ body {
     transform: scale(1.05);
   }
   
+  .add-product-form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  .add-product-form input,
+  .add-product-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  /* Product List Table */
+.product-list {
+  margin-top: 2rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list th {
+  background-color: #e0f2f1;
+  font-weight: bold;
+}
+
+.product-list td img {
+  border-radius: 8px;
+}
+
+/* Buttons for Edit & Delete */
+.product-list button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.product-list button:hover {
+  opacity: 0.9;
+}
+
+.product-list button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.product-list button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Form Buttons */
+.add-product-form button {
+  margin-top: 1rem;
+  background-color: #00796b;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.add-product-form button:hover {
+  background-color: #004d40;
+}
+
+  

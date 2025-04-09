@@ -1,7 +1,7 @@
 {
   "consumers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Aswanth",
       "email": "aswanth@gmail.com",
       "phone": "1234567890",
@@ -45,7 +45,7 @@
   ],
   "farmers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Farmer Joe",
       "email": "farmer@gmail.com",
       "phone": "9876543210",
@@ -82,48 +82,52 @@
       "phone": "9222222222",
       "farmdetail": "Fresh Apple",
       "password": "1321"
+    },
+    {
+      "id": "3862",
+      "name": "sibi",
+      "city": "dindigul",
+      "phone": "4444455555",
+      "farmdetail": "fresh",
+      "password": "8888"
     }
   ],
-
-
-
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Kashmir Apple",
       "price": 250,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Orange",
       "price": 210,
       "img": "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Mango",
       "price": 180,
       "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg"
     },
     {
-        "id": 4,
-        "name": "Custard Apple",
-        "price": 100,
-        "img": "https://rukminim3.flixcart.com/image/850/1000/kidgnm80-0/plant-seed/3/0/g/30-sugar-apple-sm-plus-original-imafy6jzpuasdcza.jpeg?q=90&crop=false"
+      "id": "4",
+      "name": "Custard Apple",
+      "price": 100,
+      "img": "https://rukminim3.flixcart.com/image/850/1000/kidgnm80-0/plant-seed/3/0/g/30-sugar-apple-sm-plus-original-imafy6jzpuasdcza.jpeg?q=90&crop=false"
     },
     {
-        "id": 5,
-        "name": "Fresh Guava",
-        "price": 140,
-        "img": "https://rukminim2.flixcart.com/image/850/1000/ked56kw0/fruit/y/h/s/500-un-branded-whole-original-imafv2fthhvhvhgr.jpeg?q=90&crop=false"
-      },
-      {
-        "id": 6,
-        "name": "Watermelon",
-        "price": 90,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s"
-      }
-
+      "id": "5",
+      "name": "Fresh Guava",
+      "price": 140,
+      "img": "https://rukminim2.flixcart.com/image/850/1000/ked56kw0/fruit/y/h/s/500-un-branded-whole-original-imafv2fthhvhvhgr.jpeg?q=90&crop=false"
+    },
+    {
+      "id": "6",
+      "name": "Watermelon",
+      "price": 90,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s"
+    }
   ]
 }
