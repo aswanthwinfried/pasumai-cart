@@ -80,4 +80,20 @@
     font-size: 1.1rem;
     color: #888;
   }
+
+
+  .place-order-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .place-order-btn:hover {
+    background-color: #218838;
+  }
+  
   

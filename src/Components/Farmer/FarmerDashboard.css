@@ -1,210 +1,220 @@
-/* Basic Reset */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f9f1;
-  }
-  
-  /* Container */
-  .dashboard-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  /* Navbar */
-  .navbar {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 20px;
-  }
-  
-  .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    cursor: pointer;
-    font-weight: 500;
-  }
-  
-  /* Content */
-  .dashboard-content {
-    padding: 30px;
-  }
-  
-  .dashboard-content h3 {
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Stats */
-  .stats-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .box {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 1;
-    min-width: 200px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .box p {
-    margin: 0;
-    font-size: 14px;
-    color: #555;
-  }
-  
-  .box h4 {
-    font-size: 24px;
-    margin-top: 10px;
-    color: #2e7d32;
-  }
-  
-  /* Button */
-  .btn-container {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .add-btn {
-    padding: 12px 24px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    white-space: nowrap; /* Prevent line breaks */
-    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .btn1-container {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .add1-btn {
-    background-color: #4CAF50;
-    padding: 20px;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    white-space: nowrap; /* Prevent line breaks */
-    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .add1-btn:hover {
-    background-color: #388E3C;
-    transform: scale(1.05);
-  }
-  
-  .add-product-form {
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 300px;
-  }
-  
-  .add-product-form input,
-  .add-product-form button {
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  /* Product List Table */
-.product-list {
-  margin-top: 2rem;
-  background: #f9f9f9;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* General Layout */
+.dashboard-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  min-height: 100vh;
 }
 
-.product-list table {
-  width: 100%;
-  border-collapse: collapse;
+.navbar {
+  background-color: #2e8b57;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.product-list th,
-.product-list td {
-  text-align: left;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.product-list th {
-  background-color: #e0f2f1;
+.logo {
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
-.product-list td img {
-  border-radius: 8px;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
-/* Buttons for Edit & Delete */
-.product-list button {
-  margin-right: 8px;
-  padding: 6px 12px;
-  border: none;
-  border-radius: 6px;
+.nav-links li {
   cursor: pointer;
   font-weight: 500;
+  transition: 0.3s;
 }
 
-.product-list button:hover {
-  opacity: 0.9;
+.nav-links li:hover {
+  color: #ffeb3b;
 }
 
-.product-list button:first-child {
-  background-color: #4caf50;
+/* Dashboard Content */
+.dashboard-content {
+  padding: 2rem;
+}
+
+.stats-boxes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.box {
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.box p {
+  margin: 0;
+  font-size: 1rem;
+  color: #777;
+}
+
+.box h4 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: #2e8b57;
+}
+
+/* Buttons */
+.btn1-container {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.add1-btn {
+  background-color: #2e8b57;
   color: white;
-}
-
-.product-list button:last-child {
-  background-color: #f44336;
-  color: white;
-}
-
-/* Form Buttons */
-.add-product-form button {
-  margin-top: 1rem;
-  background-color: #00796b;
-  color: white;
-  padding: 10px 16px;
   border: none;
+  padding: 10px 16px;
   border-radius: 8px;
+  font-size: 0.95rem;
   cursor: pointer;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
+}
+
+.add1-btn:hover {
+  background-color: #246f46;
+}
+
+/* Form */
+.add-product-form {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-product-form input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-product-form button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .add-product-form button:hover {
-  background-color: #004d40;
+  background-color: #246f46;
 }
 
-  
+/* Table */
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-list th, .product-list td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.product-list th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.product-list td img {
+  border-radius: 6px;
+}
+
+/* Action Buttons */
+.product-list button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.product-list button:hover {
+  background-color: #246f46;
+}
+
+/* Orders, Earnings, Profile Sections */
+.orders-section, .earnings-section, .profile-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.orders-section p, .earnings-section p, .profile-section p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.orders-section table {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.orders-section th, .orders-section td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.orders-section th {
+  background-color: #f9f9f9;
+}
+
+.orders-section img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-boxes {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

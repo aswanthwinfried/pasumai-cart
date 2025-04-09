@@ -128,6 +128,68 @@
       "name": "Watermelon",
       "price": 90,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s"
+    },
+    {
+      "id": "0331",
+      "name": "Pineapple",
+      "price": 100,
+      "img": "https://www.bigbasket.com/media/uploads/p/xxl/10000156_30-fresho-pineapple.jpg"
+    },
+    {
+      "id": "a5bc",
+      "name": "ooty apple",
+      "price": 200,
+      "img": "https://www.shutterstock.com/image-photo/organic-ooty-apples-india-600nw-2496435711.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2",
+      "name": "Orange",
+      "price": 210,
+      "img": "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Mango",
+      "price": 180,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Custard Apple",
+      "price": 100,
+      "img": "https://rukminim3.flixcart.com/image/850/1000/kidgnm80-0/plant-seed/3/0/g/30-sugar-apple-sm-plus-original-imafy6jzpuasdcza.jpeg?q=90&crop=false",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "1",
+      "name": "Kashmir Apple",
+      "price": 250,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "1",
+      "name": "Kashmir Apple",
+      "price": 250,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "6",
+      "name": "Watermelon",
+      "price": 90,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
     }
   ]
 }
