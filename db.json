@@ -41,6 +41,13 @@
       "email": "ram123@gmail.com",
       "phone": "8213212121",
       "password": "4321"
+    },
+    {
+      "id": "d9d1",
+      "name": "winfried",
+      "email": "win12@gmail.com",
+      "phone": "1212121212",
+      "password": "3333"
     }
   ],
   "farmers": [
@@ -90,13 +97,21 @@
       "phone": "4444455555",
       "farmdetail": "fresh",
       "password": "8888"
+    },
+    {
+      "id": "5e16",
+      "name": "aswanth",
+      "city": "madurai",
+      "phone": "1234512345",
+      "farmdetail": "fresh fruits",
+      "password": "321321"
     }
   ],
   "products": [
     {
       "id": "1",
       "name": "Kashmir Apple",
-      "price": 250,
+      "price": 210,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s"
     },
     {
@@ -130,16 +145,10 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s"
     },
     {
-      "id": "0331",
+      "id": "33e9",
       "name": "Pineapple",
       "price": 100,
       "img": "https://www.bigbasket.com/media/uploads/p/xxl/10000156_30-fresho-pineapple.jpg"
-    },
-    {
-      "id": "a5bc",
-      "name": "ooty apple",
-      "price": 200,
-      "img": "https://www.shutterstock.com/image-photo/organic-ooty-apples-india-600nw-2496435711.jpg"
     }
   ],
   "orders": [
@@ -188,6 +197,38 @@
       "name": "Watermelon",
       "price": 90,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFt6Iz3D590bKd1YDJROFYTQz_H57VLft_Q&s",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Mango",
+      "price": 180,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "1",
+      "name": "Kashmir Apple",
+      "price": 210,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Orange",
+      "price": 210,
+      "img": "https://www.shutterstock.com/image-photo/fresh-orange-fruits-leaves-background-600nw-1840946851.jpg",
+      "quantity": 1,
+      "buyer": "aswanth@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Mango",
+      "price": 180,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
       "quantity": 1,
       "buyer": "aswanth@example.com"
     }
